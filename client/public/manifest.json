@@ -1,0 +1,48 @@
+{
+  "name": "SanusXPRO - Preparação para Residência Médica",
+  "short_name": "SanusXPRO",
+  "description": "Plataforma de estudo para residência médica com banco de questões, simulados temporizados e análise de desempenho",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#4f46e5",
+  "icons": [
+    {
+      "src": "/assets/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/assets/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["education", "medical", "health"],
+  "orientation": "portrait-primary",
+  "shortcuts": [
+    {
+      "name": "Dashboard",
+      "url": "/",
+      "description": "Visualize seu progresso e estatísticas"
+    },
+    {
+      "name": "Simulados",
+      "url": "/timed-simulations",
+      "description": "Pratique com simulados temporizados"
+    },
+    {
+      "name": "Checklists",
+      "url": "/checklist-bank",
+      "description": "Acesse o banco de checklists"
+    }
+  ],
+  "lang": "pt-BR",
+  "dir": "ltr",
+  "prefer_related_applications": false,
+  "related_applications": [],
+  "scope": "/",
+  "offline_enabled": true
+}
